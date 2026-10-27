@@ -39,7 +39,49 @@ def add_task(tasks):
         return
     tasks.append({"title":title, "done": False})
     save_tasks(tasks)
-    print("✅ Task added.")
+    print("☑️  Task added.")
+
+def view_task(tasks):
+    """View all task"""
+    if not tasks:
+        print("🚫 No tasks Yet.")
+        return
+    for number, task in enumerate(tasks, start=1):
+        status = "✅ Done" if task["done"] else "⏳ Pending"
+        print(f"{number}. {task["title"]} [{status}]")
+
+def select_task(tasks):
+    """select the task to mark it complete"""
+    if not tasks:
+       print("🔴 No task available.") 
+       return None
+    view_task(tasks)
+    try:
+        number = int(input("Task Number: "))
+    except ValueError:
+        print("💢 Please enter a valid whole number.")
+        return None
+    if not 1<= number <= len(tasks):
+        print("❌ Invalid task number")
+        return None
+    return number - 1
+
+def complete_task(tasks):
+    """make task complete after select by its title"""
+    index = select_task(tasks)
+    if index is None:
+        return
+    tasks[index]["done"] = True
+    print("Task Completed ✅ .")
+
+def delete_task(tasks):
+    """Delete the selected task"""
+    index = select_task(tasks)
+    if index is None:
+        return
+    removed = tasks.pop(index)
+    save_tasks(tasks)
+    print(f"🗑️ Task deleted")
 
 # main function
 def main():
@@ -51,20 +93,20 @@ def main():
         print("\t\t    TASK TRACKER")
         print("="*52)
         print("1. Add   2. View   3. Complete   4. Delete   5. Exit")
-        choice = int(input("Choice: "))
-        if choice == 1:
+        choice = input("Choice: ")
+        if choice == "1":
             add_task(tasks)
-        elif choice == 2:
+        elif choice == "2":
             view_task(tasks)
-        elif choice == 3:
-            print("Completed task")
-        elif choice == 4:
-            print("Delete task")
-        elif choice == 5:
-            print("Goodbye!")
+        elif choice == "3":
+            complete_task(tasks)
+        elif choice == "4":
+            delete_task(tasks)
+        elif choice == "5":
+            print("👋 Goodbye!")
             break
         else:
-            print("Invalid choice.\nPlease select 1 to 5.")
+            print("⛔ Invalid choice.\nPlease select 1️⃣  to 5️⃣.")
 
 if __name__ == "__main__":
     main()

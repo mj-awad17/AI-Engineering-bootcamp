@@ -1,6 +1,14 @@
 [
     {
-        "title": "Read notes",
+        "title": "typing practice",
+        "done": true
+    },
+    {
+        "title": "make linkedin post",
         "done": false
+    },
+    {
+        "title": "avoid mobile phone for an hour",
+        "done": true
     }
 ]
