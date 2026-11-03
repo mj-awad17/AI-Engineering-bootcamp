@@ -1,0 +1,22 @@
+transaction_id,sale_date,region,category,quantity,unit_price
+1001,10/1/2026,North, food ,2,120
+1002,10/1/2026,South,Books,1,250
+1003,10/2/2026,North,Food,3,110
+1004,10/2/2026,East,Stationery,4,50
+1005,10/3/2026,SOUTH,books,2,250
+1006,10/3/2026,West,Food,,130
+1007,10/4/2026,North,Stationery,3,60
+1008,10/4/2026,East,Books,1,300
+1009,10/5/2026,West, food,5,90
+1010,10/5/2026,South,Stationery,2,
+1011,10/6/2026,East,Food,2,invalid
+1012,10/6/2026,North,Books,1,320
+1013,10/7/2026,South,Food,-2,130
+1014,invalid-date,West,Books,2,300
+1015,10/8/2026,East,Food,2,120
+1016,10/8/2026,North,Stationery,1,10000
+1017,10/9/2026,South,Food,3,95
+1018,10/9/2026,,Books,2,200
+1019,10/10/2026,West,Stationery,2,40
+1020,10/10/2026,North,Food,4,100
+1003,10/2/2026,North,Food,3,110
