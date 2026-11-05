@@ -29,6 +29,61 @@ The **Artificial Intelligence Track** is a full-time, 12-week bootcamp focused o
 * **Format:** In-Person Hands-on Labs & Projects
 * **Target Outcome:** Industry-ready AI/ML Developer & Prompt/LLM Application Engineer
 
+## 📚 Detailed Course Curriculum
+
+> *250-hour technical core journey — From Python foundations to building and deploying AI applications.*
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th align="left">Module</th>
+      <th align="left">Focus Area</th>
+      <th align="left">Technologies & Concepts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-1">01. Python & Software Engineering<a/></b></td>
+      <td>Core Programming</td>
+      <td>Python, OOP, Git/GitHub, APIs, SQL, and Testing</td>
+    </tr>
+    <tr>
+      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-2">02. Data Analysis & Engineering</a></b></td>
+      <td>Data Pipelines</td>
+      <td>NumPy, Pandas, Data Cleaning, and Data Pipelines</td>
+    </tr>
+    <tr>
+      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-3">03. Machine Learning</a></b></td>
+      <td>ML Algorithms</td>
+      <td>Regression, Classification, Clustering, and Model Evaluation</td>
+    </tr>
+    <tr>
+      <td><b>04. Deep Learning</b></td>
+      <td>Neural Architectures</td>
+      <td>Neural Networks, PyTorch, CNNs, and Transformers</td>
+    </tr>
+    <tr>
+      <td><b>05. Azure AI Fundamentals (AI-103)</b></td>
+      <td>Cloud Certification</td>
+      <td>AI Concepts, Responsible AI, Azure AI Foundry, and Exam Prep</td>
+    </tr>
+    <tr>
+      <td><b>06. Generative AI, RAG & Agents</b></td>
+      <td>Applied GenAI</td>
+      <td>LLMs, Prompt Engineering, Retrieval (RAG), Embeddings, and AI Agents</td>
+    </tr>
+    <tr>
+      <td><b>07. AI Backend, MLOps & Azure</b></td>
+      <td>Production Deployment</td>
+      <td>FastAPI, Model Monitoring, CI/CD, and Azure Cloud Deployment</td>
+    </tr>
+    <tr>
+      <td><b>08. Capstone & Career Readiness</b></td>
+      <td>Project & Portfolio</td>
+      <td>Industry Project, GitHub Portfolio Optimization, and Mock Interviews</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 🎯 Program Goals & Requirements
 
