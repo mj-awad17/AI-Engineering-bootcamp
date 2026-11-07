@@ -43,17 +43,17 @@ The **Artificial Intelligence Track** is a full-time, 12-week bootcamp focused o
   </thead>
   <tbody>
     <tr>
-      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-1">01. Python & Software Engineering<a/></b></td>
+      <td><b><a href="https://github.com/mj-awad17/AI-Engineering-bootcamp/tree/main/Week-1">01. Python & Software Engineering<a/></b></td>
       <td>Core Programming</td>
       <td>Python, OOP, Git/GitHub, APIs, SQL, and Testing</td>
     </tr>
     <tr>
-      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-2">02. Data Analysis & Engineering</a></b></td>
+      <td><b><a href="https://github.com/mj-awad17/AI-Engineering-bootcamp/tree/main/Week-2">02. Data Analysis & Engineering</a></b></td>
       <td>Data Pipelines</td>
       <td>NumPy, Pandas, Data Cleaning, and Data Pipelines</td>
     </tr>
     <tr>
-      <td><b><a href="F:\PSEB\AI-Engineering-bootcamp\Week-3">03. Machine Learning</a></b></td>
+      <td><b><a href="https://github.com/mj-awad17/AI-Engineering-bootcamp/tree/main/Week-3">03. Machine Learning</a></b></td>
       <td>ML Algorithms</td>
       <td>Regression, Classification, Clustering, and Model Evaluation</td>
     </tr>
