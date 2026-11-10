@@ -11,6 +11,8 @@
   <img src="https://img.shields.io/badge/Enjoying%20the%20Project-Star%20the%20Repository-f0b84b?style=for-the-badge&logo=github&logoColor=white" alt="Star the repository on GitHub">
 </a>
 
+<img style="width:250%;height:auto;" src="banner-v.gif" alt="Loading...">
+
 </div>
 
 ## About
