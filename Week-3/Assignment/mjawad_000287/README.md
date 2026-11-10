@@ -101,8 +101,8 @@ their paths relative to its own location.
 
 | File | Description |
 |---|---|
-| [`app.py`](app.py) | Streamlit user interface and prediction flow |
-| [`student_learning.ipynb`](student_learning.ipynb) | Data exploration, model training, evaluation, and model export |
+| [app.py](https://github.com/mj-awad17/AI-Engineering-bootcamp/blob/main/Week-3/Assignment/mjawad_000287/app.py) | Streamlit user interface and prediction flow |
+| [student_learning.ipynb](https://github.com/mj-awad17/AI-Engineering-bootcamp/blob/main/Week-3/Assignment/mjawad_000287/student_learning.ipynb) | Data exploration, model training, evaluation, and model export |
 | [`student_learning.csv`](student_learning.csv) | Student training dataset |
 | [`new_student_learning.csv`](new_student_learning.csv) | Example student records for prediction |
 | [`Student-Log_R_model.joblib`](Student-Log_R_model.joblib) | Saved Logistic Regression pipeline |
