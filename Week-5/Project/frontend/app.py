@@ -15,18 +15,13 @@ st.set_page_config(
     layout="wide",
 )
 st.title("Ticket intelligence", icon=":material/support_agent:")
-st.caption("Classify a support request and compare the predictions from three models.")
+st.caption("Classify a support request and compare the ML model predictions.")
 
 with st.sidebar:
     st.header("Workspace", icon=":material/tune:")
     st.caption("AI-powered support ticket triage")
     st.markdown("**Models**")
-    st.caption("Calibrated ML · Random Forest · Gemini")
-    st.markdown("**Gemini mode**")
-    if os.getenv("GEMINI_MODE", "mock").strip().lower() == "live":
-        st.badge("Live Gemini", icon=":material/cloud:", color="green")
-    else:
-        st.badge("Local demo", icon=":material/offline_bolt:", color="orange")
+    st.caption("Calibrated ML · Random Forest")
 
     dataset_path = (
         Path(__file__).resolve().parents[1]
@@ -94,7 +89,7 @@ with result_column:
             st.caption("Your classification and model comparison will appear here.")
         else:
             st.success(result["final_category"], icon=":material/check_circle:")
-            st.write(result["reason"])
+            st.caption("Combined classification result")
             if result["needs_human_review"]:
                 st.warning("Human review is recommended.")
             else:
@@ -104,9 +99,8 @@ with result_column:
             model_predictions = [
                 ("Calibrated ML", result["ml_prediction"]),
                 ("Random Forest", result.get("random_forest_prediction")),
-                ("Gemini", result["gemini_prediction"]),
             ]
-            cards = st.columns(3)
+            cards = st.columns(2)
             for card, (model_label, prediction) in zip(cards, model_predictions):
                 with card:
                     if prediction is None:
@@ -121,10 +115,5 @@ with result_column:
                     )
                     st.caption(prediction["model"])
                     if prediction.get("reasoning"):
-                        st.caption(prediction["reasoning"])
-
-            st.caption(
-                f"Hybrid decision: {result['decision']} · "
-                f"ML and Gemini agreement: {'yes' if result['model_agreement'] else 'no'}"
-            )
+                        st.write(prediction["reasoning"])
 
