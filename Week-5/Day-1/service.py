@@ -43,14 +43,14 @@ from dotenv import load_dotenv
 #
 # RateLimitError:
 # Raised when the API rate limit is reached.
-from openai import (
-    APIConnectionError,
-    APIError,
-    ContentFilterFinishReasonError,
-    LengthFinishReasonError,
-    OpenAI,
-    RateLimitError,
-)
+# from openai import (
+#     APIConnectionError,
+#     APIError,
+#     ContentFilterFinishReasonError,
+#     LengthFinishReasonError,
+#     OpenAI,
+#     RateLimitError,
+# )
 
 
 # Import BaseModel to define a structured data model.

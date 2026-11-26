@@ -1,0 +1,15 @@
+fastapi>=0.115,<1
+google-genai>=1.0,<2
+joblib>=1.4,<2
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+pandas>=2.2,<4
+pydantic>=2.8,<3
+python-dotenv>=1,<2
+pytest>=8,<10
+requests>=2.32,<3
+scikit-learn>=1.5,<2
+seaborn>=0.13,<1
+streamlit>=1.40,<2
+uvicorn[standard]>=0.30,<1
+

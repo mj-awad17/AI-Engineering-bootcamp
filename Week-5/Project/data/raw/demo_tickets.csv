@@ -1,0 +1,52 @@
+ticket_text,category
+"The application crashes when I open the settings page.",Technical Support
+"I get an error when saving my profile changes.",Technical Support
+"The desktop app freezes while exporting a report.",Technical Support
+"A bug prevents me from uploading a document.",Technical Support
+"The search feature is not working on my account.",Technical Support
+"I was charged twice for this month's subscription.",Billing & Payments
+"My latest invoice includes an incorrect amount.",Billing & Payments
+"How can I update the credit card used for payment?",Billing & Payments
+"The payment failed but the money left my bank account.",Billing & Payments
+"Please explain the extra fee on my bill.",Billing & Payments
+"I cannot log in after resetting my password.",Account & Access
+"My account is locked and I cannot sign in.",Account & Access
+"The verification code never arrives when I try to access my account.",Account & Access
+"Please help me change the email address on my account.",Account & Access
+"I forgot my password and the reset link expired.",Account & Access
+"How do I use the reporting feature in your product?",Product Support
+"Where can I find instructions for setting up the dashboard?",Product Support
+"The new feature does not appear in my workspace.",Product Support
+"Can you help me configure notifications in the app?",Product Support
+"I need guidance on using the export tool.",Product Support
+"Can I get a demo before purchasing a business plan?",Sales & Pre-Sales
+"Please send pricing information for the enterprise plan.",Sales & Pre-Sales
+"Do you offer a discount for multiple licenses?",Sales & Pre-Sales
+"I would like to speak with sales about a custom quote.",Sales & Pre-Sales
+"What features are included in the premium package?",Sales & Pre-Sales
+"I want to return my order and request a refund.",Returns & Refunds
+"My refund has not arrived after ten business days.",Returns & Refunds
+"How do I exchange a product that arrived damaged?",Returns & Refunds
+"Please cancel my purchase and refund the payment.",Returns & Refunds
+"The item is defective and I would like to return it.",Returns & Refunds
+"I have a complaint about the service I received.",Customer Service
+"Could a support representative call me back?",Customer Service
+"Thank you for resolving my issue so quickly.",Customer Service
+"I would like to speak to a customer service agent.",Customer Service
+"Where can I send feedback about my support experience?",Customer Service
+"Our office VPN disconnects every few minutes.",IT & Infrastructure
+"The company email server is rejecting messages.",IT & Infrastructure
+"I need help configuring network access for a new employee.",IT & Infrastructure
+"The internal server cannot connect to the database.",IT & Infrastructure
+"Please assist with setting up multi-factor authentication for staff.",IT & Infrastructure
+"The service appears to be down for all users.",Service Outages
+"Is there a current outage affecting the login system?",Service Outages
+"Our team has been unable to access the platform since this morning.",Service Outages
+"The status page reports an incident in our region.",Service Outages
+"When will the ongoing service interruption be resolved?",Service Outages
+"What are your support team's opening hours?",General Inquiries
+"Where can I find information about your company?",General Inquiries
+"Do you provide services in Canada?",General Inquiries
+"Please explain how your support process works.",General Inquiries
+"Who should I contact for general information?",General Inquiries
+
